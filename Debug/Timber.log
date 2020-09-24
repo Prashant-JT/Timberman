@@ -1,10 +1,13 @@
 ﻿  Timber.cpp
-C:\Users\prash\Documents\Visual Studio 2019\Projects\Timber\Timber.cpp(148,31): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\prash\Documents\Visual Studio 2019\Projects\Timber\Timber.cpp(151,18): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\prash\Documents\Visual Studio 2019\Projects\Timber\Timber.cpp(172,27): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\prash\Documents\Visual Studio 2019\Projects\Timber\Timber.cpp(175,18): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\prash\Documents\Visual Studio 2019\Projects\Timber\Timber.cpp(195,27): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\prash\Documents\Visual Studio 2019\Projects\Timber\Timber.cpp(198,18): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\prash\Documents\Visual Studio 2019\Projects\Timber\Timber.cpp(221,27): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\prash\Documents\Visual Studio 2019\Projects\Timber\Timber.cpp(224,18): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\prash\Documents\Visual Studio 2019\Projects\Timber\Timber.cpp(214,39): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\prash\Documents\Visual Studio 2019\Projects\Timber\Timber.cpp(234,39): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\prash\Documents\Visual Studio 2019\Projects\Timber\Timber.cpp(276,31): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\prash\Documents\Visual Studio 2019\Projects\Timber\Timber.cpp(279,18): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\prash\Documents\Visual Studio 2019\Projects\Timber\Timber.cpp(300,27): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\prash\Documents\Visual Studio 2019\Projects\Timber\Timber.cpp(303,18): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\prash\Documents\Visual Studio 2019\Projects\Timber\Timber.cpp(323,27): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\prash\Documents\Visual Studio 2019\Projects\Timber\Timber.cpp(326,18): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\prash\Documents\Visual Studio 2019\Projects\Timber\Timber.cpp(349,27): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\prash\Documents\Visual Studio 2019\Projects\Timber\Timber.cpp(352,18): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\prash\Documents\Visual Studio 2019\Projects\Timber\Timber.cpp(378,18): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
   Timber.vcxproj -> C:\Users\prash\Documents\Visual Studio 2019\Projects\Timber\Debug\Timber.exe
