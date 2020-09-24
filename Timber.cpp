@@ -396,6 +396,45 @@ int main()
 					branches[i].setPosition(3000, height);
 				}
 			}
+			
+			// Handle a flying log
+			if (logActive)
+			{
+				spriteLog.setPosition(
+					spriteLog.getPosition().x +
+					(logSpeedX * dt.asSeconds()),
+					spriteLog.getPosition().y +
+					(logSpeedY * dt.asSeconds()));
+				// Has the log reached the right hand edge?
+				if (spriteLog.getPosition().x < -100 ||
+					spriteLog.getPosition().x > 2000)
+				{
+					// Set it up ready to be a whole new log next frame
+					logActive = false;
+					spriteLog.setPosition(810, 720);
+				}
+			}
+
+			// Has the player been squished by a branch?
+			if (branchPositions[5] == playerSide)
+			{
+				// death
+				paused = true;
+				acceptInput = false;
+				// Draw the gravestone
+				spriteRIP.setPosition(525, 760);
+				// Hide the player
+				spritePlayer.setPosition(2000, 660);
+				// Change the text of the message
+				messageText.setString("SQUISHED!");
+				// Center it on the screen
+				FloatRect textRect = messageText.getLocalBounds();
+				messageText.setOrigin(textRect.left +
+					textRect.width / 2.0f,
+					textRect.top + textRect.height / 2.0f);
+				messageText.setPosition(1920 / 2.0f,
+					1080 / 2.0f);
+			}
 		}
 		
 		window.clear(); // Clear everything from the last frame
